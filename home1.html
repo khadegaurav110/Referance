@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System RTI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>System RTI</h1>
+  <div>
+    <label for="projectName">Project Name:</label>
+     <div>
+     </div>
+    <input type="text" id="projectName" placeholder="Enter project name">
+    <div>
+    </div>
+
+
+
+    <label for="projectPath">Project Path:</label>
+    <div>
+    </div>
+    <input type="file" id="projectPath" webkitdirectory directory multiple>
+    <div>
+    </div>
+    <button onclick="createProject()">Create Project</button>
+    <div>
+    </div>
+  </div>
+  <div>
+    <label for="openProjectSelect">Open Project:</label>
+    <div>
+    </div>
+    <select id="openProjectSelect"></select>
+    <div>
+    </div>
+    <button onclick="openProject()">Open Project</button>
+    <div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
